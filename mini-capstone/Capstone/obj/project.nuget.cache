@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8Ge8T78tImxbvxzwHCmIqyDxutwh5YPzGns/QgVQe6xt9cOuswX+sDJQ0n+GVjWqDz4sSV5JKxotSxdcD9UKbw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Student\\source\\repos\\pairs\\week-04-team-2\\mini-capstone\\Capstone\\Capstone.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}
