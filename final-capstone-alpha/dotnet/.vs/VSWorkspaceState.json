@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Capstone",
+    "\\Capstone\\bin",
+    "\\Capstone\\Controllers",
+    "\\Capstone\\obj",
+    "\\Capstone\\obj\\Debug",
+    "\\Capstone\\obj\\Debug\\net6.0",
+    "\\Capstone\\obj\\Release",
+    "\\Capstone\\obj\\Release\\net6.0",
+    "\\database"
+  ],
+  "SelectedNode": "\\Capstone\\Capstone.csproj",
+  "PreviewInSolutionExplorer": false
+}

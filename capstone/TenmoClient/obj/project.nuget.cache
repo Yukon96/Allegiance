@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mkjGDokSk0d1ax7q9pAsEPsp14NeCcWoxfsa7DCgC20e7PCn7AelDVImMNd/+18UslorXgwsTnZ+prLwAv7kVw==",
+  "dgSpecHash": "JKUTYceaP97HjSB/DhtqD67ISFC0FpTzkLnebtUwgvAjqiLycBzv+3qEeuV3h2RMVegRayuuAt/pes8e9Oomqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Student\\source\\repos\\pairs\\week-08-team-8\\capstone\\TenmoClient\\TenmoClient.csproj",
+  "projectFilePath": "C:\\Users\\Student\\source\\repos\\personal\\Allegiance\\capstone\\TenmoClient\\TenmoClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Student\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"

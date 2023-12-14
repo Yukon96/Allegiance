@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q+ZPqAs7nTcv9Eto/ChNUC9DA8R+3mElOEgR+BVl+jzv9pnblH01CuTje3J/3bOVjwEVz4r52Dp5DuCwjGnw5w==",
+  "dgSpecHash": "1fLYBkdyum3yKDuNHK2Ll5SOFI4sVrO0GtOLFNrMV1evqPeuzz87jphIRAMlIDBrumWbBcxbxW2RnoLmiL8kiQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Student\\source\\repos\\pairs\\week-04-team-2\\mini-capstone\\CapstoneTests\\CapstoneTests.csproj",
+  "projectFilePath": "C:\\Users\\Student\\source\\repos\\personal\\Allegiance\\mini-capstone\\CapstoneTests\\CapstoneTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

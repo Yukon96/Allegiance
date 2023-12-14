@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capstone", "dotnet\Capstone\Capstone.csproj", "{F5C26DFC-905F-4518-A7AE-4555DCF86D7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "dotnet\Test\Test.csproj", "{CCE05A58-40DE-413F-9BDC-9853AAA7C597}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5C26DFC-905F-4518-A7AE-4555DCF86D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C26DFC-905F-4518-A7AE-4555DCF86D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C26DFC-905F-4518-A7AE-4555DCF86D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C26DFC-905F-4518-A7AE-4555DCF86D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE05A58-40DE-413F-9BDC-9853AAA7C597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE05A58-40DE-413F-9BDC-9853AAA7C597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE05A58-40DE-413F-9BDC-9853AAA7C597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE05A58-40DE-413F-9BDC-9853AAA7C597}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09609303-E9EB-48BC-998D-C274056896FB}
+	EndGlobalSection
+EndGlobal

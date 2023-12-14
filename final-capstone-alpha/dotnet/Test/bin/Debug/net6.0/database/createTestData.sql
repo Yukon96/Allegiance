@@ -1,0 +1,6 @@
+IF DB_ID('test_capstone') IS NOT NULL
+BEGIN
+	ALTER DATABASE test_capstone SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+	DROP DATABASE test_capstone;
+END
+CREATE DATABASE test_capstone

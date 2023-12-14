@@ -1,0 +1,218 @@
+body{
+  text-align: center;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  max-width: 100%;
+  overflow-y: scroll;
+}
+.spacer{
+  color: rgb(71,95,123);
+  display: inline;
+}
+a{
+  color:#fc7667
+}
+h1{
+  font-weight: 400;
+}
+label{
+  font-size:x-large;
+}
+input{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 2.5vh;
+  background-color: aliceblue;
+  border-color: rgb(71,95,123);
+  border-style: solid;
+}
+#login-username {
+  display: grid;
+  grid-area: login-username;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "username-label"
+  "username"
+}
+#username{
+  margin: auto;
+  grid-area: username;
+}
+#username-label{
+  grid-area: username-label;
+}
+#login-password {
+  margin-left: 1px;
+  margin-right: 1px;
+  object-fit: contain;
+  display: grid;
+  grid-area: login-password;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "password-label"
+  "password"
+}
+#password{
+  margin: auto;
+  width: auto;
+  grid-area: password;
+}
+#password-label{
+  grid-area: password-label;
+}
+#login-submit {
+  border-radius: 2.5vh;
+  grid-area: login-submit;
+  width: 50%;
+  margin: auto;
+}
+
+#login-prompt {
+  grid-area: login-prompt;
+}
+
+#login-alert-invalid {
+  text-align: center;
+  grid-area: login-alert-invalid;
+}
+
+#login-alert-success {
+  text-align: center;
+  grid-area: login-alert-success;
+}
+
+#login-register {
+  grid-area: login-register;
+}
+#login-form{
+  margin: auto;
+  grid-area: login-form;
+  display: grid;
+  column-gap: 5px;
+  grid-row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "login-prompt login-prompt login-prompt login-prompt login-prompt"
+    "login-alert-invalid login-alert-invalid login-alert-invalid login-alert-invalid login-alert-invalid"
+    "login-alert-success login-alert-success login-alert-success login-alert-success login-alert-success"
+    "login-username login-username login-username login-username login-username"
+    "login-password login-password login-password login-password login-password"
+    "login-submit login-submit login-submit login-submit login-submit "
+    "login-register login-register login-register login-register login-register "
+}
+#login{
+  height: fit-content;
+  width: fit-content;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  color:black;
+  border-radius: 2.5vh;
+  background-color: aliceblue;
+  border-color: black;
+  border-style: solid;
+  text-align: center;
+  grid-area: login;
+  display: grid;
+  column-gap: 50px;
+  grid-row-gap: 20px;
+  grid-template-columns: 1fr;
+  align-items: center;
+  grid-template-areas:
+  "login-form"
+}
+
+#password-change {
+  height: fit-content;
+  width: fit-content;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  color:black;
+  border-radius: 2.5vh;
+  background-color: aliceblue;
+  border-color: black;
+  border-style: solid;
+  text-align: center;
+  grid-area: password-change;
+  display: grid;
+  column-gap: 50px;
+  grid-row-gap: 20px;
+  grid-template-columns: 1fr;
+  align-items: center;
+  grid-template-areas:
+  "password-change-form"
+}
+
+#password-change-form {
+  margin: auto;
+  grid-area: password-change-form;
+  display: grid;
+  column-gap: 5px;
+  grid-row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  grid-template-areas:
+    "password-change-header password-change-header password-change-header password-change-header password-change-header"
+    "password-new password-new password-new password-new password-new"
+    "password-confirm password-confirm password-confirm password-confirm password-confirm"
+    "password-submit password-submit password-submit password-submit password-submit"
+}
+
+#password-change-header {
+  grid-area: password-change-header;
+}
+
+#password-new {
+  display: grid;
+  grid-area: password-new;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "password-new-label"
+  "password-new-pass"
+}
+#password-new-pass{
+  margin: auto;
+  grid-area: password-new-pass;
+}
+
+#password-new-label{
+  grid-area: password-new-label;
+}
+
+#password-confirm {
+  margin-left: 1px;
+  margin-right: 1px;
+  object-fit: contain;
+  display: grid;
+  grid-area: password-confirm;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "password-confirm-label"
+  "password-confirm-password"
+}
+#password-confirm-label{
+  margin: auto;
+  width: auto;
+  grid-area: password-confirm-label;
+}
+#password-confirm-password{
+  grid-area: password-confirm-password;
+}
+
+#password-submit {
+  border-radius: 2.5vh;
+  grid-area: password-submit;
+  width: 100%;
+  margin: auto;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
